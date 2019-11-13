@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://mhers91:Dangles10@3dscanning-fjjbl.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "f182b858fd5e65976960",
+  "githubSecret": "e8b27d2bc2e39e0dcc1fe12eb3d29760d5551c29"
+}
