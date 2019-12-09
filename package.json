@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "File sharing application",
   "main": "server.js",
-  "homepage": "https://mhers91.github.io/3dScanning",
+  "homepage": "https://3dscanning.ejprescott.com/",
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
     "client": "npm start --prefix client",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Mike Hersom",
   "license": "ISC",
